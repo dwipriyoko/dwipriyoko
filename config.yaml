@@ -1,0 +1,124 @@
+tproxy-port: 9898
+mode: 'rule' 
+allow-lan: true
+unified-delay: false
+bind-address: "*"
+log-level: silent
+ipv6: false
+geodata-mode: true
+external-controller: 0.0.0.0:9090
+external-ui: dashboard
+tcp-concurrent: false
+secret: ""
+dns:
+  enable: true
+  ipv6: false
+  default-nameserver:
+    - '1.1.1.1'
+  listen: 0.0.0.0:1053
+  enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  fake-ip-filter: []
+  nameserver:
+    - 141.193.213.20
+# DI BAWAH NAMESERVER GANTI DENGAN IP BUG YG DI PAKAI
+  fallback: []
+  fallback-filter:
+    geoip: false 
+    geoip-code: 'ID'
+    geosite: []
+    domain: []
+    ipcidr: []
+tun:
+  enable: false
+  stack: gvisor
+  dns-hijack: ['any:53', 'tcp://any:53']
+  auto-route: true
+  auto-detect-interface: true
+sniffer:
+  enable: false
+  sniffing:
+    - tls
+    - http
+  port-whitelist: []
+  skip-domain: []
+  force-domain: []
+iptables: {enable: false, inbound-interface: "lo", bypass: []}
+interface-name: ""
+enable-process: false
+hosts:
+  'teams.Microsoft.com': 141.193.213.20
+profile: {store-selected: true, store-fake-ip: false}
+proxies:
+proxy-providers:
+  Akun:
+    type: file
+    interval: 86000
+    url: ""
+    path: ./akun/Akun.yaml
+    health-check:
+      enable: true
+      url: 'http://cp.cloudflare.com/generate_204'
+      interval: 600
+proxy-groups:
+  - name: Howdy
+    type: url-test
+    strategy: consistent-hashing
+    url: http://howdy.id/ping.php
+    interval: 300
+    use:
+      - Akun
+  - name: Direct-WA
+    type: select
+    strategy: consistent-hashing
+    url: http://howdy.id/ping.php
+    interval: 300
+    proxies:
+      - DIRECT
+    use:
+      - Akun
+  - name: Game
+    type: select
+    strategy: consistent-hashing
+    url: http://howdy.id/ping.php
+    interval: 300
+    proxies:
+      - DIRECT
+    use:
+      - Akun
+  - name: Ads
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+rule-providers:
+    Adblock:
+      type: http
+      behavior: domain
+      interval: 86400
+      url: "https://rules.kr328.app/category-porn.yaml"
+      path: ./rule/category-reject-all.yaml
+    AdBlock:
+      type: file
+      behavior: classical
+      path: ./rule/AdBlock.yaml
+    Gaming:
+      type: file
+      behavior: classical
+      path: ./rule/gaming.yaml
+    Streaming:
+      type: file
+      behavior: classical
+      path: ./rule/streaming.yaml
+    Direct:
+      type: file
+      behavior: classical
+      path: ./rule/switch/direct.yaml
+rules:
+  - RULE-SET,Adblock,Ads
+  - RULE-SET,AdBlock,Ads
+  - RULE-SET,Gaming,Game
+  - RULE-SET,Direct,Direct-WA
+  - RULE-SET,Streaming,Howdy
+  - MATCH,Howdy
