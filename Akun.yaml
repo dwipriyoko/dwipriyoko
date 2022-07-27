@@ -1,0 +1,1537 @@
+bug:
+  - &a ionline.uc.edu
+  - &b ir.deliveryhero.com
+  - &c developers.deliveryhero.com
+  - &d apps.qiscus.com
+  - &e lms.uin-antasari.ac.id
+  - &f cacerts.digicert.com
+  - &g cdn.digicertcdn.com
+  - &h developer.medallia.com
+  - &i ocem.medallia.com
+  - &j access.zoominfo.com
+  - &k blogs.microsoft.com
+  - &l www.midtrans.com
+  - &m www.udemy.com
+  - &n dev.appsflyer.com
+  - &o cdn.onlymega.com
+  - &p api.fastworldpay.com
+  - &q ltcminer.com
+  - &r 104.18.38.174
+  - &s 141.193.213.20
+  - &t 141.193.213.21
+  - &u 104.16.42.102
+  - &v 104.16.43.102
+  - &w 104.18.211.56
+  - &x 141.193.213.20
+  - &y 141.193.213.21
+  - &z 104.21.90.167
+  - &aa 104.17.71.206
+  - &bb 104.17.70.206
+  - &cc 104.18.24.139
+  - &dd 104.26.5.10
+  - &ee 104.26.4.10
+  - &ff 104.17.2.81
+  - &gg 104.18.211.56
+  - &hh 172.67.182.69
+  - &ii 104.21.32.17
+  - &jj 104.18.11.39
+  - &kk 104.18.10.39
+  - &ll 104.26.4.126
+  - &mm 104.18.21.226
+  - &nn teams.microsoft.com
+  - &oo alt2-safebrowsing.google.com
+  - &pp web.web.whatsapp.com
+  - &qq blog.clova.line.me
+  - &rr bimbel.ruangguru.com
+  - &ss www.skillacademy.com
+  - &tt 104.18.2.2
+  - &uu 199.60.103.28
+  - &vv meetzoom.net
+  - &ww zoom.com.cn
+  - &xx meetzoom.net
+  - &yy zoomus.cn
+  - &zz 162.159.128.7
+  - &aaa 162.159.138.6
+  - &bbb ruangguru.com
+  - &ccc blog.clova.line.me
+  - &ddd store.linefriends.com
+  - &eee cs-cb.clova.line.me
+  - &fff cs-ocr.clova.line.me 
+  - &ggg lb.clova.line.me
+  - &hhh zendesk3.shopee.tw 
+  - &iii support-whatsapp.zendesk.com 
+  - &jjj zendesk1.appsflyer.com 
+  - &kkk zendesk1.grabtaxi.com 
+  - &lll zendesk4.grabtaxi.com 
+  - &mmm account-gopay.midtrans.com 
+  - &nnn 104.26.14.32
+  - &ooo 104.17.70.206
+  - &ppp 104.16.66.85
+  - &qqq 104.17.74.206
+  - &rrr 104.22.25.131
+  - &sss 104.18.25.139
+  - &ttt 104.20.74.141
+  - &uuu 104.20.75.141
+  - &vvv meet.ruangguru.com
+  - &www 104.18.30.9
+  - &xxx 104.26.4.192
+  - &yyy chat.sociomile.com
+  - &zzz 104.19.142.89
+  - &aaaa 104.19.142.108
+  - &bbbb 104.16.108.96
+  - &cccc 104.18.21.219
+  - &dddd 104.18.30.102
+  - &eeee 104.18.20.94
+  - &ffff 104.18.21.94
+  - &gggg cdn.appsflyer.com
+  - &hhhh cf-vod.nimo.tv
+  - &iiii www.tawk.to
+  - &jjjj 104.17.29.92
+  - &kkkk 104.17.28.92
+  - &llll 104.17.27.92
+    Akun 
+  - &server ki4y.vpsxc.my.id
+  - &uuid 5abba434-3f51-437c-832d-c9af6cfa0257
+  - &port 80
+  - &path /vmessws
+proxies:
+  - name: *a
+    server: *a
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *b
+    server: *b
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *c
+    server: *c
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *d
+    server: *d
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *e
+    server: *e
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *f
+    server: *f
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *g
+    server: *g
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *h
+    server: *h
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *i
+    server: *i
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *j
+    server: *j
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *k
+    server: *k
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *l
+    server: *l
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *m
+    server: *m
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *n
+    server: *n
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *o
+    server: *o
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *p
+    server: *p
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *q
+    server: *q
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *r
+    server: *r
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *s
+    server: *s
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *t
+    server: *t
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *u
+    server: *u
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *v
+    server: *v
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *w
+    server: *w
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *x
+    server: *x
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *y
+    server: *y
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *z
+    server: *z
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *aa
+    server: *aa
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *bb
+    server: *bb
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *cc
+    server: *cc
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *dd
+    server: *dd
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *ee
+    server: *ee
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *ff
+    server: *ff
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *gg
+    server: *gg
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *hh
+    server: *hh
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *ii
+    server: *ii
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *jj
+    server: *jj
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *kk
+    server: *kk
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *ll
+    server: *ll
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *mm
+    server: *mm
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *nn
+    server: *nn
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *oo
+    server: *oo
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *pp
+    server: *pp
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *qq
+    server: *qq
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *rr
+    server: *rr
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *ss
+    server: *ss
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *tt
+    server: *tt
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *uu
+    server: *uu
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *vv
+    server: *vv
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *ww
+    server: *ww
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *xx
+    server: *xx
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *yy
+    server: *yy
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *zz
+    server: *zz
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *aaa
+    server: *aaa
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *bbb
+    server: *bbb
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *ccc
+    server: *ccc
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *ddd
+    server: *ddd
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *eee
+    server: *eee
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *fff
+    server: *fff
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *ggg
+    server: *ggg
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *hhh
+    server: *hhh
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *iii
+    server: *iii
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *jjj
+    server: *jjj
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *kkk
+    server: *kkk
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *lll
+    server: *lll
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *mmm
+    server: *mmm
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *nnn
+    server: *nnn
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *ooo
+    server: *ooo
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *ppp
+    server: *ppp
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *qqq
+    server: *qqq
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *rrr
+    server: *rrr
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *sss
+    server: *sss
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *ttt
+    server: *ttt
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *uuu
+    server: *uuu
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *vvv
+    server: *vvv
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *www
+    server: *www
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *xxx
+    server: *xxx
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *yyy
+    server: *yyy
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *zzz
+    server: *zzz
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *aaaa
+    server: *aaaa
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *bbbb
+    server: *bbbb
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *cccc
+    server: *cccc
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *dddd
+    server: *dddd
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *eeee
+    server: *eeee
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *ffff
+    server: *ffff
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *gggg
+    server: *gggg
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *hhhh
+    server: *hhhh
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *iiii
+    server: *iiii
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *jjjj
+    server: *jjjj
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *kkkk
+    server: *kkkk
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
+  - name: *llll
+    server: *llll
+    port: *port
+    type: vmess
+    uuid: *uuid
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *server
+    network: ws
+    ws-opts:
+      path: *path
+      headers:
+        Host: *server
+    udp: true
